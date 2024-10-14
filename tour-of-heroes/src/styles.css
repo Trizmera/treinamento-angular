@@ -1,14 +1,7 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
-h1 {
-  color: #264D73;
-  font-size: 2.5rem;
-}
-h2, h3 {
-  color: #444;
-  font-weight: lighter;
-}
+
 h3 {
   font-size: 1.3rem;
 }
@@ -22,34 +15,56 @@ body {
     padding: 2rem;
   }
 }
-body, input[text] {
-  color: #333;
-  font-family: Cambria, Georgia, serif;
-}
+
 a {
   cursor: pointer;
 }
+
+h1 {
+  color: #8B0000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+h2, h3 {
+  color: #2f4f4f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+body {
+  margin: 2em;
+}
+
+body, input[text], button {
+  color: #4B0082;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 button {
-  background-color: #eee;
+  background-color: #ffa07a;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  color: black;
+  color: #4B0082;
   font-size: 1.2rem;
   padding: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
+
 button:hover {
-  background-color: black;
+  background-color: #4B0082;
   color: white;
 }
+
 button:disabled {
-  background-color: #eee;
+  background-color: #FFA07a;
   color: #aaa;
   cursor: auto;
 }
+
 
 nav a {
   padding: 5px 10px;
