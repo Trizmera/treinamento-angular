@@ -3,5 +3,8 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
-    [ path: 'about', ]
+    { path: 'about', component: AboutComponent },
+    { path: 'services', component: ServicesComponent },
+    { path: 'contact', component: ContactComponent },
+    { path: '**', redirectTo: '', pathMatch: 'full' }
 ];

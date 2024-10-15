@@ -1,13 +1,17 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { MatToolbarModule } from '@angular/material/toolbar'; // Import necessary modules here
+import { MatButtonModule } from '@angular/material/button';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  standalone: true, // Indicates the component is standalone
+  imports: [
+    MatToolbarModule, // Import Angular Material modules here
+    MatButtonModule,
+    RouterModule
+  ]
 })
-export class AppComponent {
-  title = 'site-ng';
-}
+export class AppComponent { }
